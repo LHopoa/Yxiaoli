@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎</title>
+    <meta name="chenc" content="Runoob">
+    <meta name="description" content="空白">
+    <meta name="keywords" content="许愿">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="Robots" contect="all">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container"><!-- 主体开始 -->
+        <div class="hander"><!-- 导航开始 -->
+            <nav id="nav-menu">
+                <a href="#" data-rel="home-me-section" class="active">NEW</a>
+                <a href="#" data-rel="about-exp-section">关于</a>
+                <a href="#" data-rel="course-exp-section">历史</a>
+                <a href="#" data-rel="website-exp-section">站点</a>
+            </nav>
+        </div><!-- 导航结束 -->
+        <div class="content"><!-- 内容开始 -->
+            <section class="home-me-section active-section"><!-- 首页开始 -->
+                <div class="main"><!-- 首页内容 -->)
+                    <img src="bgo.jpg" class="bgo" />
+                    <img src="https://q1.qlogo.cn/g?b=qq&nk=2313204584&s=640" class="ato" onclick="alert('你好啊 ￣へ￣')" />
+                    <div class="name" onclick="javascript:this.innerHTML=(this.innerHTML=='空白'?'KongBai':'空白');">小黎</div>
+                    <div class="motto" onclick="javascript:this.innerHTML=(this.innerHTML=='我曾尝试销声匿迹,但始终无人问津'?'I tried to disappear, but no one cared':'I tried to disappear, but no one cared');">稳住阵脚<br>
+                        放手一搏</div>
+                    <div class="navo">
+                        <ul>
+                            <li><a href="https://qm.qq.com/q/kWBzPizq80" target="_blank"><i class="fab fa-qq"></i></a></li><!-- QQ -->
+                        </ul>
+                    </div>
+                </div><!-- 首页内容结束 -->
+            </section><!-- 首页结束 -->
+            <section class="about-exp-section"><!-- 关于开始 -->
+                <div class="main"><!-- 关于内容 -->
+                    <img src="bgt.jpg" class="bgt" />
+                    <img src="https://q1.qlogo.cn/g?b=qq&nk=2313204584&s=640" class="ats" />
+                    <div class="about">
+                        <p>_大部分光阴已经被我挥霍了
+                            <br>_稳住阵脚
+                              <br>_放手一搏
+                                <br>_Tuning my cheek for the sake of the show
+                        </p>
+                    </div>
+                    <div class="about" style="margin-top:20px;">
+                        <p>一个工作室：陵寒工作室(LHopoa)
+                            <br>官方邮箱lhopoa@foxmail.com
+                            <br>江西的小子祝你
+                            <br>开心
+                            <br>！
+                        </p>
+                    </div>
+                </div><!-- 关于内容结束 -->
+            </section><!-- 关于结束 -->
+            <section class="course-exp-section"><!-- 历程开始 -->
+                <div class="main"><!-- 历程内容 -->
+                    <img src="bgt.jpg" class="bgt" />
+                    <img src="https://q1.qlogo.cn/g?b=qq&nk=2313204584&s=640" class="ats" />
+                    <div class="box">
+                        <div id="boxs">
+                            <div class="track-list"><!-- 时间轴开始 -->
+                                <ul>
+                                    <li>
+                                        <i class="node-icon"><img src="img/tbl.svg"></i>
+                                        <span class="time" style="color:#2ECC71">2023-3-31</span>
+                                        <span class="txt" style="color:#2ECC71">最开心的一天</span>
+                                    </li>
+                                </ul>
+                                <!-- 时间轴结束 -->
+                            </div>
+                        </div>
+                        <!-- <div style="color:#aaa;text-align:center;font-size:12px">注: 上下滑动查看历史进程</div>    -->
+                    </div>
+                </div><!-- 历程内容结束 -->
+            </section><!-- 历程结束 -->
+
+
+            <section class="website-exp-section"><!-- 站点开始 -->
+                <div class="main"><!-- 站点内容开始 -->
+                    <img src="bgt.jpg" class="bgt" />
+                    <img src="https://q1.qlogo.cn/g?b=qq&nk=2313204584&s=640" class="ats" />
+                    <div class="box">
+                        <div id="boxs">
+                            <a href="https://qm.qq.com/q/kWBzPizq80" target="_blank">
+                                <div class="web">我的QQ</div>
+                                  <a href="https://sharechain.qq.com/a20b9364e650826b0f2be939910b9461" target="_blank">
+                                <div class="web">临时公告</div>
+                            </a>
+                            <!-- 站点一 -->
+                            <div class="web" onclick="alert('http://d5mha.ovzz.cn/32\n备用-https://sourl.cn/xWbsxC\n工具站因某种原因只在周6-周1开放')">LH工具站</div>
+                            <div class="tips">所有站点均正常运行</div>
+                        </div><!-- 站点内容结束 -->
+            </section><!-- 站点结束 -->
+        </div><!-- 内容结束 -->
+    </div><!-- 主体结束 -->
+    <div class="footer"><!-- 底部版权 -->
+        <span id="sitetime"></span><!-- 运行时间 -->
+        <a href="https://sharechain.qq.com/a20b9364e650826b0f2be939910b9461" target="_blank">
+            <div class="web"><img src="beian.png" style="height: 1em;"></div>
+        </a>
+    </div><!-- 版权结束 -->
+    <div id="tp-weather-widget"></div><!-- 天气插件 -->
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "bubble",
+            location: "WX4FBXXFKE4F",
+            geolocation: true,
+            language: "zh-Hans",
+            unit: "c",
+            theme: "auto",
+            token: "ac1d036a-99f3-4f88-ae98-f795bb93a9f0",
+            hover: "disabled",
+            container: "tp-weather-widget"
+        })
+    </script><!-- 天气插件结束 -->
+    <script src="index.js"></script><!-- 核心插件 -->
+    <script src="all.js"></script><!-- 图标库 -->
+    <script src="Sitetime.js"></script><!-- 运行时间 -->
+    <script src="Mouse.js"></script><!-- 点击烟花特效 -->
+</body>
+
+</html>
